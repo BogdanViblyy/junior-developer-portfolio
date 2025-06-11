@@ -63,6 +63,23 @@
         <div id="mvp-info" class="task-section">
         </div>
         <div id="git-info" class="task-section">
+            <h3>Kuidas luua remote repo ja mis käsud on vaja kasutada?</h3>
+            <p>Kaughoidla (remote repository) loomine GitHubis ja selle ühendamine kohaliku projektiga on arendaja põhioskus. Siin on peamised sammud ja käsud:</p>
+            <ol>
+                <li><strong>Loo uus repositoorium GitHub.com lehel.</strong></li>
+                <li><strong>Projekti kaustas oma arvutis käivita käsk:</strong>
+                    <pre><code>git init -b main</code></pre>
+                </li>
+                <li><strong>Ühenda lokaalne repo kaughoidlaga:</strong>
+                    <pre><code>git remote add origin https://github.com/sinu-kasutaja/repo.git</code></pre>
+                </li>
+                <li><strong>Kontrolli ühendust:</strong>
+                    <pre><code>git remote -v</code></pre>
+                </li>
+                <li><strong>Saada oma lokaalsed commit'id kaughoidlasse:</strong>
+                    <pre><code>git push -u origin main</code></pre>
+                </li>
+            </ol>
         </div>
     </section>
 
