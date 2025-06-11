@@ -31,7 +31,28 @@ body {
     margin: 0;
     padding: 10px 0;
 }
+.task-section { padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
 
+.task-section h3 {
+    margin-top: 0;
+    color: #004d40;
+}
+
+.info-image { float: right;
+    width: 180px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.task-section::after { content: "";
+    display: table;
+    clear: both; }
 
 .main-nav {
     background-color: #00796b;
