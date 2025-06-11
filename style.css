@@ -49,6 +49,21 @@ body {
     padding: 0;
 }
 
+pre { background-color: #e0f2f1;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #b2dfdb;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+code { font-family: 'Courier New',
+Courier, monospace;
+    color: #004d40;
+    font-size: 0.95em;
+}
+
 .main-nav ul li {
     display: inline;
     margin: 0 20px;
